@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.countNN{
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    background: linear-gradient(red, orange, green, pink, violet);
+    color : #fff;
+    padding: 5px;
+    border-radius: 20%;
+    display: inline-block;
+    margin: 10px 0;
+}
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top : 0px;
+    left : 0px;
+}
+input{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: blue;
+    outline: none;
+}
+input[type=submit]{
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(30, 30, 30);
+    color : #fff;
+    font-weight: 200;
+    padding: 10px;
+    margin: 20px 0;
+}
+input[type=submit]:hover{
+    background: linear-gradient(rgb(248, 160, 160), rgb(237, 213, 167), rgb(156, 156, 239), rgb(243, 243, 154),violet);
+    color : #000;
+    font-weight: 900;
+}
