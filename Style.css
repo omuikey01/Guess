@@ -49,3 +49,7 @@ input[type=submit]:hover{
     color : #000;
     font-weight: 900;
 }
+#Random{
+    font-size : 20px;
+    font-weight : 800;
+}
